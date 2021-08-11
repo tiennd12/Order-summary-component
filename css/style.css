@@ -1,0 +1,125 @@
+* {
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+.middle {
+  background-image: url("../images/patternbackgrounddesktop.svg");
+}
+
+.container {
+  max-width: 1440px;
+}
+
+.card__content {
+  background-color: #fff;
+  text-align: center;
+  max-width: 450px;
+  margin: auto;
+}
+
+.card__hero {
+  text-align: center;
+}
+
+.card__title h1 {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  letter-spacing: -1px;
+  margin-top: 35px;
+  color: #1f2f56;
+}
+
+.card__details {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0px;
+  line-height: 20px;
+  margin: 0 80px;
+  padding-bottom: 20px;
+  color: #7280a7;
+}
+
+.card__plan {
+  background-color: #f5f7ff;
+  padding: 15px;
+  margin: 10px 60px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card__plan-icon {
+  margin: 0 15px 0 5px;
+}
+
+.card__plan-type {
+  font-family: "Red Hat Display", sans-serif;
+  margin-right: 80px;
+  font-size: 16px;
+  text-align: start;
+}
+.card__plan-type .plan-type-1 {
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  color: #1f2f56;
+}
+.card__plan-type .plan-type-2 {
+  font-weight: 500;
+  color: #7280a7;
+}
+
+.card__plan-change {
+  font-size: 14px;
+  font-weight: bold;
+  color: #3829e0;
+}
+
+.card__pay button {
+  font-weight: bold;
+  padding: 10px 100px;
+  background-color: #3829e0;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  margin: 15px 0 5px;
+  cursor: pointer;
+}
+.card__pay button:hover {
+  opacity: 0.8;
+}
+.card__pay a:link {
+  text-decoration: none;
+}
+
+.card__cancel button {
+  font-weight: bold;
+  padding: 10px 100px;
+  margin-bottom: 25px;
+  background-color: white;
+  color: #7280a7;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+}
+.card__cancel button:hover {
+  opacity: 0.8;
+  color: black;
+}
+.card__cancel a:link {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */
