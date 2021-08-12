@@ -3,16 +3,19 @@
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: 16px;
   text-align: center;
+  padding: 40px;
 }
 
 .attribution a {
-  color: #3e52a3;
+  color: blue;
 }
 
 .middle {
   background-image: url("../images/patternbackgrounddesktop.svg");
+  background-color: #e0e8ff;
+  background-repeat: no-repeat;
 }
 
 .container {
@@ -20,23 +23,34 @@
 }
 
 .card__content {
-  background-color: #fff;
   text-align: center;
   max-width: 450px;
   margin: auto;
+  border-radius: 15px;
 }
 
 .card__hero {
   text-align: center;
+  padding-top: 100px;
+}
+.card__hero img {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+
+.card__info {
+  background-color: white;
+  border-radius: 0 0 15px 15px;
 }
 
 .card__title h1 {
   font-family: "Red Hat Display", sans-serif;
-  font-weight: 700;
+  font-weight: 900;
   font-size: 28px;
   letter-spacing: -1px;
-  margin-top: 35px;
+  padding-top: 40px;
   color: #1f2f56;
+  margin-top: 0;
 }
 
 .card__details {
@@ -45,7 +59,7 @@
   font-weight: 500;
   letter-spacing: 0px;
   line-height: 20px;
-  margin: 0 80px;
+  margin: 15px 75px;
   padding-bottom: 20px;
   color: #7280a7;
 }
@@ -94,8 +108,9 @@
   border: none;
   border-radius: 10px;
   font-size: 14px;
-  margin: 15px 0 5px;
+  margin: 25px 0 5px;
   cursor: pointer;
+  box-shadow: 0px 20px 15px -15px #3829e0;
 }
 .card__pay button:hover {
   opacity: 0.8;
@@ -113,6 +128,8 @@
   border: none;
   border-radius: 10px;
   font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 25px;
 }
 .card__cancel button:hover {
   opacity: 0.8;
@@ -120,6 +137,24 @@
 }
 .card__cancel a:link {
   text-decoration: none;
+}
+
+@media only screen and (max-width: 450px) {
+  .card__content {
+    width: 90%;
+  }
+
+  .card__plan {
+    margin: 10px 10px;
+  }
+
+  .card__plan-change {
+    margin-right: 30px;
+  }
+
+  .card__pay button {
+    padding: 15px 90px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
