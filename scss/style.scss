@@ -131,7 +131,7 @@
     .card__cancel {
         button {
             font-weight: bold;
-            padding: 10px 100px;
+            padding: 10px 0px;
             margin-bottom: 25px;
             background-color: white;
             color: $Desaturated_blue;
@@ -140,6 +140,7 @@
             font-size: 16px;
             margin-top: 15px;
             margin-bottom: 25px;
+            cursor: pointer;
         }
         button:hover {
             opacity: 0.8;
