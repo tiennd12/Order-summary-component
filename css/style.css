@@ -15,11 +15,7 @@
 .middle {
   background-image: url("../images/patternbackgrounddesktop.svg");
   background-color: #e0e8ff;
-  background-repeat: no-repeat;
-}
-
-.container {
-  max-width: 1440px;
+  background-repeat: repeat-x;
 }
 
 .card__content {

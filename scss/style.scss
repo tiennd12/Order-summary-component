@@ -20,11 +20,11 @@
     .middle {
         background-image: url('../images/patternbackgrounddesktop.svg');
         background-color: $Pale_blue;
-        background-repeat: no-repeat;
+        background-repeat: repeat-x;
     }
     
     .container {
-        max-width: 1440px;
+        // max-width: 1440px;
     }
     
     .card__content {
